@@ -1,0 +1,13 @@
+# Secrets
+config.json
+*.pem
+private_key*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

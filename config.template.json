@@ -1,0 +1,7 @@
+{
+  "key_id": "YOUR_KALSHI_KEY_ID",
+  "private_key_path": "/path/to/your/private_key.pem",
+  "base_url": "https://api.elections.kalshi.com",
+  "demo_url": "https://demo-api.kalshi.co",
+  "use_demo": false
+}
