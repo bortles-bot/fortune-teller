@@ -60,6 +60,23 @@ client.place_order(
 client.cancel_order(order_id)
 ```
 
+## Arbitrage Monitor
+
+```bash
+python arb_monitor.py
+```
+
+Polls CoinGecko for BTC/ETH/DOGE prices and compares against Kalshi 15-minute markets to identify potential arbitrage opportunities.
+
+**What it checks:**
+- Current spot prices vs Kalshi strike prices
+- Market bid/ask vs estimated fair value
+- Reports opportunities with estimated edge
+
+**Data sources:**
+- Prices: CoinGecko API (free)
+- Markets: Kalshi API (authenticated)
+
 ## Notes
 
 - Prices are in cents (1-99)
